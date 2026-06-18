@@ -29,6 +29,7 @@ export default function Projects() {
           <a
             href="https://www.etsy.com/shop/KatteLatte?ref=seller-platform-mcnav"
             target="_blank"
+            rel="noopener noreferrer"
             className="text-blue-600 dark:text-blue-400 hover:underline"
           >
             Visit Etsy Store
@@ -57,6 +58,7 @@ export default function Projects() {
           <a
             href="https://github.com/kathrynec02/gritGorilla"
             target="_blank"
+            rel="noopener noreferrer"
             className="text-blue-600 dark:text-blue-400 hover:underline"
           >
             View GitHub
@@ -85,6 +87,7 @@ export default function Projects() {
           <a
             href="https://github.com/kathrynec02/wordl-triv"
             target="_blank"
+            rel="noopener noreferrer"
             className="text-blue-600 dark:text-blue-400 hover:underline"
           >
             View on GitHub
@@ -113,6 +116,67 @@ export default function Projects() {
           <a
             href="https://github.com/kathrynec02/uvaClubReview"
             target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 dark:text-blue-400 hover:underline"
+          >
+            View on GitHub
+          </a>
+        </motion.div>
+
+        {/* Canvas&Kernel */}
+        <motion.div
+          whileHover={{ scale: 1.02 }}
+          whileTap={{ scale: 0.98 }}
+          className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 text-left"
+        >
+          <h3 className="text-xl font-semibold mb-2">Canvas&Kernel</h3>
+          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+            My web-design studio—crafting bespoke, accessible websites that pair thoughtful visual design with solid engineering.
+          </p>
+          <a
+            href="https://github.com/kathrynec02/canvas-and-kernel"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 dark:text-blue-400 hover:underline"
+          >
+            View on GitHub
+          </a>
+        </motion.div>
+
+        {/* jared */}
+        <motion.div
+          whileHover={{ scale: 1.02 }}
+          whileTap={{ scale: 0.98 }}
+          className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 text-left"
+        >
+          <h3 className="text-xl font-semibold mb-2">jared</h3>
+          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+            An AI &ldquo;chief of staff&rdquo; and life-ops assistant that keeps tasks, notes, and plans in sync. Built with Next.js, Supabase, and Claude.
+          </p>
+          <a
+            href="https://github.com/kathrynec02/jared"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 dark:text-blue-400 hover:underline"
+          >
+            View on GitHub
+          </a>
+        </motion.div>
+
+        {/* closet-app */}
+        <motion.div
+          whileHover={{ scale: 1.02 }}
+          whileTap={{ scale: 0.98 }}
+          className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 text-left"
+        >
+          <h3 className="text-xl font-semibold mb-2">closet-app</h3>
+          <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+            A fun wardrobe app for cataloging clothes and mixing-and-matching outfits.
+          </p>
+          <a
+            href="https://github.com/kathrynec02/closet-app"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-blue-600 dark:text-blue-400 hover:underline"
           >
             View on GitHub

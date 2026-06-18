@@ -32,7 +32,7 @@ export default function Hero() {
       {/* Credential Badges */}
       <div className="flex flex-wrap justify-center gap-4 mt-6">
         <div className="bg-yellow-100 text-yellow-800 text-sm font-semibold px-4 py-1 rounded-full shadow">
-          🎓 OMSCS Admit – Georgia Tech <span className="ml-1 text-xs font-normal">(ML & Interactive Intelligence)</span>
+          🎓 MS Computer Science, Georgia Tech <span className="ml-1 text-xs font-normal">(in progress · Dec 2026)</span>
         </div>
         <a href="https://www.credly.com/badges/9d85fadb-b928-463f-a4a3-190b4b015964/public_url" target="_blank" rel="noopener noreferrer" className="bg-blue-100 text-blue-800 text-sm font-semibold px-4 py-1 rounded-full shadow hover:underline">
           ☁️ AWS Cloud Practitioner Certified
@@ -41,9 +41,9 @@ export default function Hero() {
 
       {/* CTA Buttons */}
       <div className="mt-6 flex flex-wrap justify-center gap-4">
-        <a href="/Kathryn Chadwick Resume.docx.pdf" target="_blank" className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition">View Resume</a>
-        <a href="https://github.com/kathrynec02" target="_blank" className="px-6 py-3 bg-gray-800 text-white rounded-lg shadow-md hover:bg-gray-900 transition">GitHub</a>
-        <a href="https://www.linkedin.com/in/kathrynec/" target="_blank" className="px-6 py-3 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600 transition">LinkedIn</a>
+        <a href="/Kathryn-Chadwick-Resume.pdf" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition">View Resume</a>
+        <a href="https://github.com/kathrynec02" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-gray-800 text-white rounded-lg shadow-md hover:bg-gray-900 transition">GitHub</a>
+        <a href="https://www.linkedin.com/in/kathrynec/" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600 transition">LinkedIn</a>
       </div>
     </motion.section>
   );

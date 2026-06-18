@@ -39,6 +39,7 @@ export default function Navbar() {
           <motion.button
             whileTap={{ scale: 0.85 }}
             onClick={toggleDarkMode}
+            aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
             className="p-2 rounded-md focus:outline-none"
           >
             {darkMode ? (

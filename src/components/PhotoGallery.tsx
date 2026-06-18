@@ -44,6 +44,7 @@ export default function PhotoGallery() {
         </div>
         <motion.button
           onClick={prev}
+          aria-label="Previous photo"
           className="absolute top-1/2 left-2 -translate-y-1/2 p-2 bg-white/70 rounded-full shadow-md"
         >
           <motion.div whileHover={{ scale: 1.3 }} className="w-6 h-6 flex items-center justify-center">
@@ -53,6 +54,7 @@ export default function PhotoGallery() {
 
         <motion.button
           onClick={next}
+          aria-label="Next photo"
           className="absolute top-1/2 right-2 -translate-y-1/2 p-2 bg-white/70 rounded-full shadow-md"
         >
           <motion.div whileHover={{ scale: 1.3 }} className="w-6 h-6 flex items-center justify-center">

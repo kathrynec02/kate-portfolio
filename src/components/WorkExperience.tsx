@@ -5,7 +5,7 @@ export default function WorkExperience() {
   
         <div className="space-y-10">
           <div>
-            <h3 className="text-xl font-semibold">TLP Senior Associate @ Vanguard</h3>
+            <h3 className="text-xl font-semibold">Application Developer III, iOS @ Vanguard</h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">Aug 2024 – Present | Charlotte, NC</p>
             <ul className="list-disc pl-5 mt-2 text-left">
               <li>Redesigned a Daily Portfolio Management (DPM) tool for 30+ stakeholders handling 800K+ transactions.</li>
