@@ -2,7 +2,7 @@
 
 My personal site. iOS engineer at Vanguard, founder of the Canvas&Kernel web-design studio, and a CS master's student at Georgia Tech — building fast at the intersection of design, code, and AI.
 
-**Live:** _coming soon_ <!-- add deployed URL -->
+**Live:** https://personalweb-topaz-chi.vercel.app
 
 ## What's here
 - **Work** — what I build at Vanguard and through Canvas&Kernel
