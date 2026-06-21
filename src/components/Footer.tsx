@@ -7,7 +7,7 @@ export default function Footer() {
           <span className="font-display text-lg text-ink">kate chadwick</span>
         </div>
         <p className="font-mono text-xs text-muted">
-          © {new Date().getFullYear()} · designed &amp; built with care
+© {new Date().getFullYear()} · built at the seam of design + code
         </p>
         <div className="flex gap-4 font-mono text-xs">
           <a

@@ -9,12 +9,12 @@ export default function Contact() {
       </div>
 
       <Reveal className="mx-auto max-w-2xl text-center">
-        <p className="font-mono text-sm text-coral">// 03 — say hello</p>
+        <p className="font-mono text-sm text-coral">// say hello</p>
         <h2 className="mt-2 font-display text-4xl tracking-tight text-ink sm:text-5xl">
           let&apos;s build something
         </h2>
         <p className="mt-4 text-lg text-muted">
-          Whether it&apos;s a studio project or a quick hello, my inbox is open.
+          A studio project, a hard problem, or just a hello → my inbox is open.
         </p>
         <a
           href="mailto:kechadwick02@gmail.com"

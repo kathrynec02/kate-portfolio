@@ -51,14 +51,16 @@ export default function Hero() {
           </motion.h1>
 
           <motion.p variants={item} className="mt-6 max-w-xl text-lg text-muted">
-            ios engineer @ vanguard · ms cs @ georgia tech · founder,{" "}
-            <span className="text-ink">canvas &amp; kernel</span>
+            full-stack engineer building AI developer tooling — the kind that
+            collapses the design-to-dev handoff. iOS @ Vanguard · M.S. HCI @
+            Georgia Tech · founder,{" "}
+            <span className="text-ink">Canvas &amp; Kernel</span>.
           </motion.p>
 
           {/* credential chips */}
           <motion.div variants={item} className="mt-7 flex flex-wrap gap-3">
             <span className="rounded-full border border-gold/50 bg-gold/10 px-4 py-1.5 font-mono text-xs text-ink">
-              GT MS · in progress · Dec 2026
+GT M.S. HCI · in progress · Dec 2026
             </span>
             <a
               href="https://www.credly.com/badges/9d85fadb-b928-463f-a4a3-190b4b015964/public_url"

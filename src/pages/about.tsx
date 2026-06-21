@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import PhotoGallery from "@/components/PhotoGallery";
 import TechnicalSkills from "@/components/TechnicalSkills";
 import Reveal from "@/components/Reveal";
 
@@ -22,28 +21,48 @@ export default function AboutPage() {
             </h1>
             <div className="mt-6 space-y-4 text-lg leading-relaxed text-muted">
               <p>
-                I&apos;m a frontend-focused full-stack engineer who loves crafting
-                clean, modern, and intuitive interfaces — and the solid engineering
-                that holds them together. I&apos;m currently in{" "}
-                <span className="text-ink">Vanguard&apos;s Technology Leadership Program</span>{" "}
-                and hold the AWS Cloud Practitioner certification.
+                I&apos;m a full-stack engineer who builds at the seam of design and
+                code. Two years in, I&apos;ve shipped high-scale web and mobile —
+                Java, Python, TypeScript/React, AWS. The interface and the
+                engineering underneath it. Both, or it doesn&apos;t count.
               </p>
               <p>
-                On the side I run{" "}
-                <span className="text-ink">Canvas &amp; Kernel</span>, my web-design
-                studio, and I&apos;m pursuing an MS in Computer Science at Georgia Tech.
+                Right now I&apos;m in{" "}
+                <span className="text-ink">Vanguard&apos;s Technology Leadership Program</span>,
+                heading into iOS and building AI developer tooling — the kind that
+                collapses the design-to-dev handoff instead of adding another step to
+                it. I think AI is an amplifier, not a replacement. It clears the busywork
+                so the human gets to do the thing only a human can. The small details
+                of an experience matter → so I spend my time there.
               </p>
               <p>
-                Outside of code, you&apos;ll find me at the gym, traveling, making art,
-                and hunting down trendy coffee shops and bakeries. This site is my
-                corner of the internet — welcome.
+                On the side I founded{" "}
+                <span className="text-ink">Canvas &amp; Kernel</span>, a web-design
+                studio for solo experts who&apos;ve outgrown the template. I&apos;m also
+                pursuing an{" "}
+                <span className="text-ink">M.S. in HCI at Georgia Tech</span>, and I hold
+                a B.A. in Computer Science from{" "}
+                <span className="text-ink">UVA</span>, Magna Cum Laude. AWS Cloud
+                Practitioner along the way.
               </p>
+            </div>
+
+            <div className="mt-12">
+              <p className="font-mono text-sm text-coral">// off the clock</p>
+              <div className="mt-4 space-y-4 text-lg leading-relaxed text-muted">
+                <p>
+                  I train for Ironman and triathlon — former State Rowing Champion, so
+                  the early mornings aren&apos;t new. When I&apos;m not training, I&apos;m
+                  pulling latte art and hunting down the next good coffee shop. I make
+                  art too — digital and acrylic (Scholastic Art &amp; Writing Gold Key).
+                  And there&apos;s an aussiedoodle who supervises all of it.
+                </p>
+              </div>
             </div>
           </Reveal>
         </section>
 
         <TechnicalSkills />
-        <PhotoGallery />
       </main>
       <Footer />
     </div>
