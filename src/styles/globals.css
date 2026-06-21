@@ -4,13 +4,14 @@
 
 /* ── Warm Editorial palette ─────────────────────────────────────────────── */
 :root {
-  --canvas: #faf7f1;
-  --surface: #fffdf8;
-  --ink: #1c1a17;
-  --muted: #6b6359;
-  --coral: #e2674c;
-  --gold: #c8a24e;
-  --hairline: #e7decf;
+  /* Deep Forest Green — token names kept (coral=emerald, gold=brass) */
+  --canvas: #f6f3ea;
+  --surface: #fffdf6;
+  --ink: #14241c;
+  --muted: #586b60;
+  --coral: #1f5d4c;
+  --gold: #b98a3e;
+  --hairline: #e1ddca;
 
   --background: var(--canvas);
   --foreground: var(--ink);
@@ -19,13 +20,13 @@
 }
 
 .dark {
-  --canvas: #141009;
-  --surface: #211b12;
-  --ink: #f1eadd;
-  --muted: #a99c88;
-  --coral: #e2674c;
-  --gold: #c8a24e;
-  --hairline: #34291b;
+  --canvas: #0e1712;
+  --surface: #17231c;
+  --ink: #eef1e7;
+  --muted: #9aa89b;
+  --coral: #46a888;
+  --gold: #cda85c;
+  --hairline: #2a3a30;
 
   --background: var(--canvas);
   --foreground: var(--ink);

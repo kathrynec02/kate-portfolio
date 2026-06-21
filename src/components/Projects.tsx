@@ -6,6 +6,7 @@ import ProjectCover from "@/components/ProjectCover";
 
 type Project = {
   title: string;
+  year: string;
   desc: string;
   href: string;
   tag: string;
@@ -13,9 +14,11 @@ type Project = {
   variant?: "coral" | "gold" | "mix";
 };
 
+// ordered best/most-important → oldest/weakest
 const projects: Project[] = [
   {
     title: "Canvas & Kernel",
+    year: "2025",
     desc: "my web-design studio: bespoke, UX-led sites with real engineering",
     href: "https://canvasandkernel.com/",
     tag: "studio",
@@ -23,6 +26,7 @@ const projects: Project[] = [
   },
   {
     title: "jared",
+    year: "2026",
     desc: "an AI chief-of-staff that plans my day from calendar, health & workload",
     href: "https://github.com/kathrynec02/jared",
     tag: "ai · next.js · supabase",
@@ -30,6 +34,7 @@ const projects: Project[] = [
   },
   {
     title: "closet-app",
+    year: "2026",
     desc: "a wardrobe app to catalog clothes & build outfits (for funsies)",
     href: "https://github.com/kathrynec02/closet-app",
     tag: "react · vite",
@@ -37,13 +42,23 @@ const projects: Project[] = [
   },
   {
     title: "KatteLatte Studio",
+    year: "2023",
     desc: "UX/UI design brand & digital storefront with coffee-themed coloring books and digital content",
     href: "https://www.etsy.com/shop/KatteLatte?ref=seller-platform-mcnav",
     tag: "design · brand",
     image: "/images/kattelattestudio.jpg",
   },
   {
+    title: "gritGorilla",
+    year: "2025",
+    desc: "a strength-building & protein-tracking app (UX/UI prototype, WaterLlama-inspired)",
+    href: "https://github.com/kathrynec02/gritGorilla",
+    tag: "ios · prototype",
+    image: "/images/gritGorilla.avif",
+  },
+  {
     title: "wordl-triv",
+    year: "2024",
     desc: "Wordle clone with custom keyboard support, Redux state, animations & trivia integration",
     href: "https://github.com/kathrynec02/wordl-triv",
     tag: "react · redux",
@@ -51,6 +66,7 @@ const projects: Project[] = [
   },
   {
     title: "HoosReview",
+    year: "2022",
     desc: "a platform for UVA students to review clubs & organizations",
     href: "https://github.com/kathrynec02/uvaClubReview",
     tag: "web · postgres",
@@ -174,6 +190,7 @@ export default function Projects() {
                   </h3>
                   <ArrowUpRight className="mt-1 h-5 w-5 shrink-0 text-muted transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-coral" />
                 </div>
+                <p className="mt-1 font-mono text-xs text-muted">{p.year}</p>
                 <p className="mt-2 text-sm leading-relaxed text-muted">{p.desc}</p>
               </div>
             </a>

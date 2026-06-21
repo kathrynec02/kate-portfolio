@@ -7,9 +7,9 @@ type ProjectCoverProps = {
 
 const gradients: Record<NonNullable<ProjectCoverProps["variant"]>, string> = {
   coral:
-    "from-[#e2674c] via-[#d8865f] to-[#c8a24e] dark:from-[#7a2f20] dark:via-[#9a4a32] dark:to-[#6b5524]",
-  gold: "from-[#c8a24e] via-[#d8b56a] to-[#e2674c] dark:from-[#6b5524] dark:via-[#7f6328] dark:to-[#7a2f20]",
-  mix: "from-[#c8a24e] via-[#d8865f] to-[#e2674c] dark:from-[#6b5524] dark:via-[#9a4a32] dark:to-[#7a2f20]",
+    "from-[#1f5d4c] via-[#2c7d5f] to-[#b98a3e] dark:from-[#13352a] dark:via-[#1f5d4c] dark:to-[#6e5326]",
+  gold: "from-[#b98a3e] via-[#9c8c4a] to-[#1f5d4c] dark:from-[#6e5326] dark:via-[#4a5a32] dark:to-[#13352a]",
+  mix: "from-[#1f5d4c] via-[#3a7d57] to-[#b98a3e] dark:from-[#13352a] dark:via-[#2a5a40] dark:to-[#6e5326]",
 };
 
 /**
