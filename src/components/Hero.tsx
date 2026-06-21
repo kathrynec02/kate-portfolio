@@ -101,21 +101,20 @@ GT M.S. HCI · in progress · Dec 2026
           </motion.div>
         </div>
 
-        {/* profile image — soft gold offset frame */}
-        <motion.div variants={item} className="mx-auto md:mx-0">
-          <div className="relative">
+        {/* profile image */}
+        <motion.div variants={item} className="mx-auto md:mx-0 md:justify-self-end">
+          <div className="relative w-fit">
             <div
               aria-hidden
-              className="absolute -right-4 -top-4 h-full w-full rounded-[2rem] border border-gold/60"
+              className="absolute -inset-5 -z-10 rounded-[2.5rem] bg-gradient-to-br from-coral/20 to-gold/20 blur-3xl"
             />
-            <div className="absolute -left-3 -bottom-3 h-24 w-24 rounded-full bg-coral/15 blur-2xl" aria-hidden />
-            <div className="relative h-64 w-64 overflow-hidden rounded-[2rem] ring-2 ring-gold/40 shadow-lg sm:h-72 sm:w-72">
+            <div className="relative h-72 w-72 overflow-hidden rounded-[2rem] ring-1 ring-gold/40 shadow-xl sm:h-80 sm:w-80">
               <Image
                 src="/Kathryn Chadwick Profile.png"
                 alt="Kate Chadwick"
                 fill
                 priority
-                sizes="288px"
+                sizes="320px"
                 className="object-cover"
               />
             </div>
