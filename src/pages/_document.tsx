@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <meta name="author" content="Kathryn Chadwick" />
       </Head>
-      <body className="antialiased">
+      <body className="antialiased bg-canvas text-ink">
         <Main />
         <NextScript />
       </body>

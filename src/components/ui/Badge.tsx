@@ -3,9 +3,8 @@ import { motion } from "framer-motion";
 export function Badge({ children }: { children: React.ReactNode }) {
   return (
     <motion.span
-      whileHover={{ scale: 1.1 }}
-      whileTap={{ scale: 0.95 }}
-      className="inline-block bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-100 px-3 py-1 rounded-full text-xs font-medium"
+      whileHover={{ y: -2 }}
+      className="inline-block rounded-full border border-hairline bg-surface px-3 py-1.5 font-mono text-xs text-ink transition-colors duration-300 hover:border-coral hover:text-coral"
     >
       {children}
     </motion.span>

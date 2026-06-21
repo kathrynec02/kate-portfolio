@@ -1,3 +1,96 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+/* ── Warm Editorial palette ─────────────────────────────────────────────── */
+:root {
+  --canvas: #faf7f1;
+  --surface: #fffdf8;
+  --ink: #1c1a17;
+  --muted: #6b6359;
+  --coral: #e2674c;
+  --gold: #c8a24e;
+  --hairline: #e7decf;
+
+  --background: var(--canvas);
+  --foreground: var(--ink);
+
+  color-scheme: light;
+}
+
+.dark {
+  --canvas: #141009;
+  --surface: #211b12;
+  --ink: #f1eadd;
+  --muted: #a99c88;
+  --coral: #e2674c;
+  --gold: #c8a24e;
+  --hairline: #34291b;
+
+  --background: var(--canvas);
+  --foreground: var(--ink);
+
+  color-scheme: dark;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--canvas);
+    color: var(--ink);
+    font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+
+  ::selection {
+    background-color: var(--coral);
+    color: #fffdf8;
+  }
+
+  /* Accent focus rings everywhere */
+  :focus-visible {
+    outline: 2px solid var(--coral);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* ── Scroll-reveal (IntersectionObserver-driven) ────────────────────────── */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.6s cubic-bezier(0.25, 0.1, 0.25, 1),
+    transform 0.6s cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}

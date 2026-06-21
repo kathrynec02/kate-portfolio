@@ -1,29 +1,42 @@
 import { Badge } from "@/components/ui/Badge";
+import Reveal from "@/components/Reveal";
+
+const skills = [
+  "React",
+  "Next.js",
+  "TypeScript",
+  "JavaScript",
+  "Python",
+  "Flask",
+  "Django",
+  "HTML/CSS",
+  "Tailwind CSS",
+  "Bootstrap",
+  "Redux",
+  "PostgreSQL",
+  "MongoDB",
+  "AWS (Lambda, DynamoDB)",
+  "Git & GitHub",
+  "Figma",
+  "OpenAI API",
+  "NVDA/Cypress Testing",
+];
 
 export default function TechnicalSkills() {
   return (
-    <section className="py-20 px-6 max-w-4xl mx-auto">
-      <h2 className="text-3xl font-bold mb-6 text-center">Technical Skills</h2>
-
-      <div className="flex flex-wrap justify-center gap-4 text-sm">
-        <Badge>React</Badge>
-        <Badge>Next.js</Badge>
-        <Badge>TypeScript</Badge>
-        <Badge>JavaScript</Badge>
-        <Badge>Python</Badge>
-        <Badge>Flask</Badge>
-        <Badge>Django</Badge>
-        <Badge>HTML/CSS</Badge>
-        <Badge>Tailwind CSS</Badge>
-        <Badge>Bootstrap</Badge>
-        <Badge>Redux</Badge>
-        <Badge>PostgreSQL</Badge>
-        <Badge>MongoDB</Badge>
-        <Badge>AWS (Lambda, DynamoDB)</Badge>
-        <Badge>Git & GitHub</Badge>
-        <Badge>Figma</Badge>
-        <Badge>OpenAI API</Badge>
-        <Badge>NVDA/Cypress Testing</Badge>
+    <section className="px-6 py-20">
+      <div className="mx-auto max-w-3xl">
+        <Reveal className="mb-8 text-center">
+          <p className="font-mono text-sm text-coral">// toolkit</p>
+          <h2 className="mt-2 font-display text-4xl tracking-tight text-ink">
+            technical skills
+          </h2>
+        </Reveal>
+        <Reveal delay={100} className="flex flex-wrap justify-center gap-3">
+          {skills.map((s) => (
+            <Badge key={s}>{s}</Badge>
+          ))}
+        </Reveal>
       </div>
     </section>
   );

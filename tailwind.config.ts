@@ -12,6 +12,18 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        canvas: "var(--canvas)",
+        surface: "var(--surface)",
+        ink: "var(--ink)",
+        muted: "var(--muted)",
+        coral: "var(--coral)",
+        gold: "var(--gold)",
+        hairline: "var(--hairline)",
+      },
+      fontFamily: {
+        display: ["var(--font-display)", "Georgia", "serif"],
+        body: ["var(--font-body)", "ui-sans-serif", "system-ui", "sans-serif"],
+        mono: ["var(--font-mono)", "ui-monospace", "monospace"],
       },
     },
   },
